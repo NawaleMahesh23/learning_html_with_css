@@ -1,0 +1,66 @@
+ /* upper case example  */
+.test{
+    text-transform: uppercase;
+    color:brown;
+}
+ /* lower case example  */
+
+.test1{
+    text-transform: lowercase;
+    color:blue;
+}
+/* capitalize case example */
+.test2{
+    text-transform: capitalize;
+    color:blueviolet;
+}
+.test3{
+    text-transform: capitalize;
+    color:blue;
+}
+.center{
+    text-align:center;
+    color:blue;
+    text-decoration: underline;
+}
+
+.right{
+    text-align: right;
+    text-decoration: overline;
+}
+.left{
+    text-align:left;
+    text-decoration:line-through;
+}
+.size{
+    font-size: 50px;
+}
+.name{
+    text-align: center;
+    text-decoration: line-through underline overline;
+    
+}
+.indent{
+    text-indent: 150px;
+
+}
+.lineheight{
+    line-height:30px;
+}
+.space{
+    word-spacing:50px;
+    color:brown;
+}
+.height{
+    letter-spacing: 30px;
+}
+.text{
+    text-align: center;
+    color:red;
+    text-shadow: 5px 10px 6px black;
+}
+.rightside{
+    text-align: right;
+    color: red;
+    text-shadow: 15px 10px 6px black;
+}
