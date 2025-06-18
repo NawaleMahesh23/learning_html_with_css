@@ -1,0 +1,12 @@
+h1{
+    color:blueviolet;
+    font-size:100px;
+    background-color:pink;
+}
+h4{
+    color:blue !important;
+    background-color: orange;
+}
+p{
+    color:blue;
+}
