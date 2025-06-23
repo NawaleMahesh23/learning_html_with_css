@@ -1,0 +1,18 @@
+body{
+    background-image: url("/images/maountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text{
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 3px 4px 5px yellow;
+    background-color:#00000069;
+}
+.text1{
+    border: 4px solid black;
+    padding: 20px;
+    background-color: #00000042;
+    
+}
