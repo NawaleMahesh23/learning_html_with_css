@@ -1,0 +1,18 @@
+.items{
+    background-color: cornflowerblue;
+    height:200px;
+    width:300px;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
