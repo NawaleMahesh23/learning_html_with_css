@@ -1,0 +1,22 @@
+.times{
+    height: 200px;
+    width: 300px;
+    background-color:purple;
+    margin-top: 20px;
+    color: black;
+    margin: 10px;
+    /* text-align: center; */
+    line-height: 150px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
