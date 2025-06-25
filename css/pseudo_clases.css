@@ -1,0 +1,63 @@
+.hover_effect:hover{
+    color: red;
+    background-color: yellow;
+    font-size: 50px;
+    text-shadow: 4px 3px 8px blue;
+    
+}
+.hover_effect{
+    color: purple;
+   
+}
+button{
+    background-color: gray;
+    font-size: 20px;
+    color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:active{
+    background-color: red;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 15px;
+    cursor: pointer;
+}
+a:visited{
+    color: yellow;
+}
+input:focus{
+    background-color:wheat;
+}
+ul{
+    width: 300px;
+    padding: 10px;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+li:nth-child(odd){
+    background-color: blueviolet;
+}
+li:nth-child(even){
+    background-color: aqua;
+}
+li:nth-child(2){
+    background-color: blue;
+}
+li:first-child{
+    background-color: aliceblue;
+}
+li:last-child{
+    background-color: coral;
+}
+input[type="text"]{
+    border: 8px solid red;
+    padding: 15px;
+    background-color:black;
+    color: white;
+}
