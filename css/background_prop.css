@@ -1,0 +1,20 @@
+div{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+.linear{
+    height: 500px;
+    font-size: 2px solid black;
+    background: linear-gradient( to right ,red,black,green);
+}
+.redial{
+    height: 500px;
+    background: radial-gradient(circle at center,red,white,black);
+    border-radius: 30px;
+}
+.conic{
+height: 500px;
+background:conic-gradient(from 90deg,red,green,yellow,blue);
+}

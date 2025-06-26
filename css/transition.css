@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -7,21 +10,28 @@
 
 }
 .box{
-    background-color: brown;
+    background-image: url(/images/cat.jpg);
+    background-repeat: no-repeat;
+    background-size:300px;
     border-radius: 10px;
-    height: 250px;
+    border: 4px solid red;
+    height: 200px;
     width: 250px;
-    color: aliceblue;
+    color:black;
     font-weight: 900;
     font-size: 25px;
     transition: transform 1s ease ;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    /* align-items:center;
+    justify-content:center;  */
+
     
 }
 .box1:hover{
     transform: translate(125px ,155px);
+    background-image: url(/images/cat.jpg);
+    background-size: cover;
+    
 }
 
 .box2:hover{
@@ -45,5 +55,5 @@
     transform: scale(2);
 }
 .box7:hover{
-    transform: rotate(50deg) scale(1.4) translateY(50px);
+    transform: rotate(360deg) scale(1.4) translateY(50px);
 }

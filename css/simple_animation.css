@@ -1,0 +1,20 @@
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    -webkit-animation: myfirstanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s; 
+    animation-direction: alternate;
+    /* reverse,alternate,reverse */
+}
+@keyframes myfirstanimation
+{
+    0%{background-color: yellow;left:0px;top:0px}
+    25%{background-color: red;left:300px;top:0px}
+    50%{background-color: green;left:300px;top:300px}
+    75%{background-color: blue;left:0px;top:300px}
+    100%{background-color: yellow;left:0px;top:0px}
+}
